@@ -1,7 +1,18 @@
-342
+1069
+~E 1 "./src/outReg.vhd" 4 outreg
+~A 1 "./src/outreg.vhd" 18 behaviour
 ~E 1 "./src/monpro.vhd" 5 monpro
 ~A 1 "./src/monpro.vhd" 21 behaviour
-~E 1 "./src/control.vhd" 5 control
-~A 1 "./src/control.vhd" 27 behaviour
+~E 1 "./src/control.vhd" 6 control
+~A 1 "./src/control.vhd" 32 behaviour
+~E 1 "./src/mux.vhd" 6 mux
+~A 1 "./src/mux.vhd" 19 behaviour
+~A 1 "./src/mux.vhd" 19 behavior
 ~E 1 "./src/residue.vhd" 5 residue
 ~A 1 "./src/residue.vhd" 20 behvaiour
+~A 1 "./src/residue.vhd" 20 behaviour
+~E 1 "./src/RSACore.vhd" 5 rsacore
+~A 1 "./src/rsacore.vhd" 21 behaviour
+~A 1 "./src/rsacore.vhd" 21 behavior
+~E 1 "./src/RSAcore_tb.vhd" 6 rsacore_tb
+~A 1 "./src/RSAcore_tb.vhd" 13 behaviour

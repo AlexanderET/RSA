@@ -57,7 +57,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=monpro|behaviour|0 residue|behvaiour|0 
+HierarchyInformation=residue|behvaiour|0 rsacore_tb|behaviour|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -65,9 +65,19 @@ Selected=
 /monpro.vhd=-1
 /residue.vhd=-1
 /control.vhd=-1
+/mux.vhd=-1
+/RSACore.vhd=-1
+/RSAconstants.vhd=-1
+/outReg.vhd=-1
+/RSAcore_tb.vhd=-1
 
 [Files.Data]
 .\src\monpro.vhd=VHDL Source Code
 .\src\residue.vhd=VHDL Source Code
 .\src\control.vhd=VHDL Source Code
+.\src\mux.vhd=VHDL Source Code
+.\src\RSACore.vhd=VHDL Source Code
+.\src\RSAconstants.vhd=VHDL Source Code
+.\src\outReg.vhd=VHDL Source Code
+.\src\RSAcore_tb.vhd=VHDL Source Code
 

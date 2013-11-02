@@ -17,7 +17,7 @@ entity residue is
 			);
 end entity;
 
-architecture behvaiour of residue is
+architecture behaviour of residue is
 signal go		: std_logic;
 signal A		: std_logic_vector(wordLen-1 downto 0);
 signal counter	: natural range 0 to wordLen-1;
@@ -28,7 +28,7 @@ begin
 	begin
 		if clk'event and clk='1' then
 			finish<=not go and not start;
-			if reset='1' then
+			if reset='0' then
 				A		<= Ain;
 				result	:= (others =>'0');
 				go		<= '0';

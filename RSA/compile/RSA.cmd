@@ -1,1 +1,1 @@
--w -s "Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\library.cfg"  -j "Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\projlib.cfg"  -d "Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\compile"   -work RSA  -O3 -e 100 -2002 "Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd" 
+-w -s "C:\Users\student\RSA\library.cfg"  -j "C:\Users\student\RSA\RSA\projlib.cfg"  -d "C:\Users\student\RSA\RSA\compile"   -work RSA  -O3 -e 100 -2002 "C:\Users\student\RSA\RSA\src\control.vhd" 

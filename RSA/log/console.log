@@ -1,133 +1,640 @@
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# Error: COMP96_0078: RSACore.vhd : (33, 35): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (33, 35): Cannot find object declaration.
+# Error: COMP96_0094: RSACore.vhd : (33, 35): Locally static expression is required in the range definition.
+# Error: COMP96_0078: RSACore.vhd : (35, 34): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (35, 34): Cannot find object declaration.
+# Error: COMP96_0094: RSACore.vhd : (35, 34): Locally static expression is required in the range definition.
+# Error: COMP96_0078: RSACore.vhd : (35, 59): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (35, 59): Cannot find object declaration.
+# Error: COMP96_0138: RSACore.vhd : (35, 59): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0078: RSACore.vhd : (41, 35): Unknown identifier "inWordLen".
+# Error: COMP96_0078: RSACore.vhd : (42, 35): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (41, 35): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (42, 35): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (41, 21): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (42, 21): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (56, 6): Unknown identifier "shitfDo".
+# Error: COMP96_0133: RSACore.vhd : (56, 6): Cannot find object declaration.
+# Error: COMP96_0112: RSACore.vhd : (56, 6): "shitfDo" does not match the formal name.
+# Error: COMP96_0078: RSACore.vhd : (67, 33): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (67, 33): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (67, 21): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (72, 33): Unknown identifier "y".
+# Error: COMP96_0133: RSACore.vhd : (72, 33): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (72, 18): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (79, 34): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (79, 34): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (79, 22): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (84, 34): Unknown identifier "y".
+# Error: COMP96_0115: RSACore.vhd : (82, 31): Actual is not a globally static expression.
+# Error: COMP96_0133: RSACore.vhd : (84, 34): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (84, 19): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (91, 33): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (91, 33): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (91, 22): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (97, 32): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (98, 32): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (99, 32): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (101, 32): Unknown identifier "output".
+# Error: COMP96_0078: RSACore.vhd : (102, 32): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (97, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (98, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (99, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (101, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (102, 32): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (97, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (98, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (99, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (101, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (102, 18): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (107, 32): Unknown identifier "outWordLen".
+# Error: COMP96_0133: RSACore.vhd : (107, 32): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (107, 21): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (111, 28): Unknown identifier "reset".
+# Error: COMP96_0078: RSACore.vhd : (112, 28): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (113, 28): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (114, 28): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (116, 28): Unknown identifier "c".
+# Error: COMP96_0078: RSACore.vhd : (117, 28): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (111, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (112, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (113, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (114, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (116, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (117, 28): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (111, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (112, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (113, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (114, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (116, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (117, 18): Undefined type of expression.
+# Compile failure 70 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# Error: COMP96_0078: RSACore.vhd : (60, 6): Unknown identifier "shitfDo".
+# Error: COMP96_0133: RSACore.vhd : (60, 6): Cannot find object declaration.
+# Error: COMP96_0112: RSACore.vhd : (60, 6): "shitfDo" does not match the formal name.
+# Error: COMP96_0078: RSACore.vhd : (76, 33): Unknown identifier "y".
+# Error: COMP96_0133: RSACore.vhd : (76, 33): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (76, 18): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (88, 34): Unknown identifier "y".
+# Error: COMP96_0133: RSACore.vhd : (88, 34): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (88, 19): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (101, 32): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (102, 32): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (103, 32): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (105, 32): Unknown identifier "output".
+# Error: COMP96_0078: RSACore.vhd : (106, 32): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (101, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (102, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (103, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (105, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (106, 32): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (101, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (102, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (103, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (105, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (106, 18): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (115, 28): Unknown identifier "reset".
+# Error: COMP96_0078: RSACore.vhd : (116, 28): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (117, 28): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (118, 28): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (120, 28): Unknown identifier "c".
+# Error: COMP96_0078: RSACore.vhd : (121, 28): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (115, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (116, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (117, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (118, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (120, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (121, 28): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (115, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (116, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (117, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (118, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (120, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (121, 18): Undefined type of expression.
+# Compile failure 42 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# Error: COMP96_0078: RSACore.vhd : (76, 33): Unknown identifier "y".
+# Error: COMP96_0133: RSACore.vhd : (76, 33): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (76, 18): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (88, 34): Unknown identifier "y".
+# Error: COMP96_0133: RSACore.vhd : (88, 34): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (88, 19): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (101, 32): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (102, 32): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (103, 32): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (105, 32): Unknown identifier "output".
+# Error: COMP96_0078: RSACore.vhd : (106, 32): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (101, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (102, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (103, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (105, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (106, 32): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (101, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (102, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (103, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (105, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (106, 18): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (115, 28): Unknown identifier "reset".
+# Error: COMP96_0078: RSACore.vhd : (116, 28): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (117, 28): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (118, 28): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (120, 28): Unknown identifier "c".
+# Error: COMP96_0078: RSACore.vhd : (121, 28): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (115, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (116, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (117, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (118, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (120, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (121, 28): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (115, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (116, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (117, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (118, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (120, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (121, 18): Undefined type of expression.
+# Compile failure 39 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# Error: COMP96_0078: RSACore.vhd : (102, 32): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (103, 32): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (104, 32): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (106, 32): Unknown identifier "output".
+# Error: COMP96_0078: RSACore.vhd : (107, 32): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (102, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (103, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (104, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (106, 32): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (107, 32): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (102, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (103, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (104, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (106, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (107, 18): Undefined type of expression.
+# Error: COMP96_0078: RSACore.vhd : (116, 28): Unknown identifier "reset".
+# Error: COMP96_0078: RSACore.vhd : (117, 28): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (118, 28): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (119, 28): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (121, 28): Unknown identifier "c".
+# Error: COMP96_0078: RSACore.vhd : (122, 28): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (116, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (117, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (118, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (119, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (121, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (122, 28): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (116, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (117, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (118, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (119, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (121, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (122, 18): Undefined type of expression.
+# Compile failure 33 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# Error: COMP96_0078: RSACore.vhd : (115, 28): Unknown identifier "reset".
+# Error: COMP96_0078: RSACore.vhd : (116, 28): Unknown identifier "start".
+# Error: COMP96_0078: RSACore.vhd : (117, 28): Unknown identifier "Ain".
+# Error: COMP96_0078: RSACore.vhd : (118, 28): Unknown identifier "B".
+# Error: COMP96_0078: RSACore.vhd : (120, 28): Unknown identifier "c".
+# Error: COMP96_0078: RSACore.vhd : (121, 28): Unknown identifier "finish".
+# Error: COMP96_0133: RSACore.vhd : (115, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (116, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (117, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (118, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (120, 28): Cannot find object declaration.
+# Error: COMP96_0133: RSACore.vhd : (121, 28): Cannot find object declaration.
+# Error: COMP96_0104: RSACore.vhd : (115, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (116, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (117, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (118, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (120, 18): Undefined type of expression.
+# Error: COMP96_0104: RSACore.vhd : (121, 18): Undefined type of expression.
+# Compile failure 18 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behvaiour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behavior" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -work RSA -2002  $dsn/src/outReg.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\outReg.vhd
+# Compile Entity "outReg"
+# Error: COMP96_0018: outReg.vhd : (8, 4): Identifier expected.
+# Error: COMP96_0018: outReg.vhd : (15, 6): Identifier expected.
+# Compile Architecture "behaviour" of Entity "outReg"
+# Error: COMP96_0015: outReg.vhd : (19, 13): ':' expected.
+# Error: COMP96_0018: outReg.vhd : (19, 29): Identifier expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/outReg.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\outReg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# Error: COMP96_0015: outReg.vhd : (19, 13): ':' expected.
+# Error: COMP96_0018: outReg.vhd : (19, 29): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/outReg.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\outReg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behvaiour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behavior" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behvaiour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behavior" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Error: COMP96_0015: RSAcore_tb.vhd : (8, 25): ')' expected.
+# Error: COMP96_0015: RSAcore_tb.vhd : (8, 25): ';' expected.
+# Error: COMP96_0019: RSAcore_tb.vhd : (8, 25): Keyword 'end' expected.
+# Error: COMP96_0016: RSAcore_tb.vhd : (8, 27): Design unit declaration expected.
+# Error: COMP96_0018: RSAcore_tb.vhd : (11, 11): Identifier expected.
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0015: RSAcore_tb.vhd : (14, 15): ':' expected.
+# Error: COMP96_0018: RSAcore_tb.vhd : (14, 25): Identifier expected.
+# Error: COMP96_0015: RSAcore_tb.vhd : (15, 15): ':' expected.
+# Error: COMP96_0018: RSAcore_tb.vhd : (15, 25): Identifier expected.
+# Error: COMP96_0015: RSAcore_tb.vhd : (38, 19): ')' expected.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0015: RSAcore_tb.vhd : (14, 15): ':' expected.
+# Error: COMP96_0018: RSAcore_tb.vhd : (14, 25): Identifier expected.
+# Error: COMP96_0015: RSAcore_tb.vhd : (15, 15): ':' expected.
+# Error: COMP96_0018: RSAcore_tb.vhd : (15, 25): Identifier expected.
+# Error: COMP96_0015: RSAcore_tb.vhd : (38, 19): ')' expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0015: RSAcore_tb.vhd : (38, 19): ')' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0100: RSAcore_tb.vhd : (37, 19): Actual parameter type in port map does not match the type of the formal port 'DataIn'.
+# Error: COMP96_0100: RSAcore_tb.vhd : (39, 19): Actual parameter type in port map does not match the type of the formal port 'CoreFinished'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Warning: DAGGEN_0002: RSAcore_tb.vhd : (43, 0): Process has no effect - no sequential statements.
+# Warning: DAGGEN_0001: RSAcore_tb.vhd : (43, 0): Process without explicit or implicit wait statement - possible infinite loop.
+# Compile success 0 Errors 2 Warnings  Analysis time :  78.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Warning: DAGGEN_0002: RSAcore_tb.vhd : (43, 0): Process has no effect - no sequential statements.
+# Warning: DAGGEN_0001: RSAcore_tb.vhd : (43, 0): Process without explicit or implicit wait statement - possible infinite loop.
+# Compile success 0 Errors 2 Warnings  Analysis time :  78.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Warning: DAGGEN_0002: RSAcore_tb.vhd : (43, 0): Process has no effect - no sequential statements.
+# Warning: DAGGEN_0001: RSAcore_tb.vhd : (43, 0): Process without explicit or implicit wait statement - possible infinite loop.
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.1 [s]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd $dsn/src/rsacore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behvaiour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behavior" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# File: C:\Users\student\RSA\RSA\src\rsacore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Design unit behaviour:RSACore instantiated in rsa.rsacore_tb not found in searched libraries: rsa.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd $dsn/src/rsacore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behvaiour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behavior" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behavior" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# File: C:\Users\student\RSA\RSA\src\rsacore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Design unit behaviour:RSACore instantiated in rsa.rsacore_tb not found in searched libraries: rsa.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd $dsn/src/rsacore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behvaiour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behavior" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# File: C:\Users\student\RSA\RSA\src\rsacore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Design unit behaviour:mux instantiated in rsa.RSACore not found in searched libraries: rsa.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -work RSA -2002  $dsn/src/mux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behaviour" of Entity "mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Design unit behaviour:residue instantiated in rsa.RSACore not found in searched libraries: rsa.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd $dsn/src/rsacore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behvaiour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behaviour" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# File: C:\Users\student\RSA\RSA\src\rsacore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Design unit behaviour:residue instantiated in rsa.RSACore not found in searched libraries: rsa.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Design unit behaviour:residue instantiated in rsa.RSACore not found in searched libraries: rsa.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd $dsn/src/rsacore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behaviour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behaviour" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# File: C:\Users\student\RSA\RSA\src\rsacore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Design Explorer: Shortcut to "Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA.aws" design added.
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Error: COMP96_0019: residue.vhd : (15, 2): Keyword 'end' expected.
-# Error: COMP96_0015: residue.vhd : (15, 2): ';' expected.
-# Error: COMP96_0016: residue.vhd : (15, 9): Design unit declaration expected.
-# Error: COMP96_0018: residue.vhd : (18, 11): Identifier expected.
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0056: residue.vhd : (20, 1): Cannot find referenced entity declaration "residue".
-# Compile failure 5 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Error: COMP96_0019: residue.vhd : (15, 2): Keyword 'end' expected.
-# Error: COMP96_0015: residue.vhd : (15, 2): ';' expected.
-# Error: COMP96_0016: residue.vhd : (15, 9): Design unit declaration expected.
-# Error: COMP96_0018: residue.vhd : (18, 11): Identifier expected.
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0056: residue.vhd : (20, 1): Cannot find referenced entity declaration "residue".
-# Compile failure 5 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Error: COMP96_0018: residue.vhd : (14, 4): Identifier expected.
-# Error: COMP96_0019: residue.vhd : (15, 2): Keyword 'end' expected.
-# Error: COMP96_0015: residue.vhd : (15, 2): ';' expected.
-# Error: COMP96_0016: residue.vhd : (15, 9): Design unit declaration expected.
-# Error: COMP96_0018: residue.vhd : (18, 11): Identifier expected.
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0056: residue.vhd : (20, 1): Cannot find referenced entity declaration "residue".
-# Compile failure 6 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Error: COMP96_0059: residue.vhd : (1, 1): Library "ieeee" not found.
-# Error: COMP96_0078: residue.vhd : (2, 5): Unknown identifier "ieee".
-# Error: COMP96_0055: residue.vhd : (2, 5): Cannot find referenced context element.
-# Error: COMP96_0078: residue.vhd : (3, 5): Unknown identifier "ieee".
-# Error: COMP96_0055: residue.vhd : (3, 5): Cannot find referenced context element.
-# Error: COMP96_0078: residue.vhd : (11, 16): Unknown identifier "std_logic".
-# Error: COMP96_0064: residue.vhd : (11, 16): Unknown type.
-# Error: COMP96_0078: residue.vhd : (14, 13): Unknown identifier "std_logic_vector".
-# Error: COMP96_0064: residue.vhd : (14, 13): Unknown type.
-# Error: COMP96_0078: residue.vhd : (15, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: residue.vhd : (15, 18): Unknown type.
-# Error: COMP96_0078: residue.vhd : (16, 14): Unknown identifier "std_logic_vector".
-# Error: COMP96_0064: residue.vhd : (16, 14): Unknown type.
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0056: residue.vhd : (20, 1): Cannot find referenced entity declaration "residue".
-# Compile failure 14 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0077: residue.vhd : (42, 17): Assignment target incompatible with right side. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: residue.vhd : (42, 17): Operator "+" is not defined for such operands.
-# Error: COMP96_0104: residue.vhd : (42, 17): Undefined type of expression.
-# Error: COMP96_0077: residue.vhd : (46, 18): Assignment target incompatible with right side. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: residue.vhd : (46, 18): Operator "-" is not defined for such operands.
-# Error: COMP96_0104: residue.vhd : (46, 18): Undefined type of expression.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-asim -O5 +access +r +m+monpro monpro behaviour
+asim -O5 +access +r +m+rsacore_tb rsacore_tb behaviour
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # asim: Stack memory: 32MB
 # asim: Retval memory: 32MB
-acom -work RSA -2002  $dsn/src/monpro.vhd
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0020 RSACore.vhd (40): Different lengths; left: 128, right: 2.
+# ELAB2: Last instance before error: /RSACore
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Fatal error occurred during simulation initialization.
+acom -work RSA -2002  $dsn/src/RSACore.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\monpro.vhd
-# Compile Entity "monpro"
-# Error: COMP96_0019: monpro.vhd : (16, 2): Keyword 'end' expected.
-# Error: COMP96_0015: monpro.vhd : (16, 2): ';' expected.
-# Error: COMP96_0016: monpro.vhd : (16, 10): Design unit declaration expected.
-# Error: COMP96_0018: monpro.vhd : (19, 11): Identifier expected.
-# Compile Architecture "behaviour" of Entity "monpro"
-# Error: COMP96_0078: monpro.vhd : (22, 30): Unknown identifier "wordLen".
-# Error: COMP96_0133: monpro.vhd : (22, 30): Cannot find object declaration.
-# Error: COMP96_0094: monpro.vhd : (22, 30): Locally static expression is required in the range definition.
-# Error: COMP96_0078: monpro.vhd : (24, 37): Unknown identifier "wordLen".
-# Error: COMP96_0133: monpro.vhd : (24, 37): Cannot find object declaration.
-# Error: COMP96_0094: monpro.vhd : (24, 37): Locally static expression is required in the range definition.
-# Error: COMP96_0078: monpro.vhd : (27, 31): Unknown identifier "wordLen".
-# Error: COMP96_0133: monpro.vhd : (27, 31): Cannot find object declaration.
-# Error: COMP96_0094: monpro.vhd : (27, 31): Locally static expression is required in the range definition.
-# Error: COMP96_0078: monpro.vhd : (29, 15): Unknown identifier "wordLen".
-# Error: COMP96_0133: monpro.vhd : (29, 15): Cannot find object declaration.
-# Error: COMP96_0094: monpro.vhd : (29, 15): Locally static expression is required in the range definition.
-# Error: COMP96_0078: monpro.vhd : (46, 48): Unknown identifier "B".
-# Error: COMP96_0133: monpro.vhd : (46, 48): Cannot find object declaration.
-# Error: COMP96_0149: monpro.vhd : (46, 48): Explicit type conversions are allowed between closely related types only.
-# Error: COMP96_0078: monpro.vhd : (51, 17): Unknown identifier "wordLen".
-# Error: COMP96_0133: monpro.vhd : (51, 17): Cannot find object declaration.
-# Error: COMP96_0094: monpro.vhd : (51, 17): Locally static expression is required in the range definition.
-# Error: COMP96_0078: monpro.vhd : (52, 17): Unknown identifier "wordLen".
-# Error: COMP96_0133: monpro.vhd : (52, 17): Cannot find object declaration.
-# Error: COMP96_0094: monpro.vhd : (52, 17): Locally static expression is required in the range definition.
-# Error: COMP96_0078: monpro.vhd : (54, 17): Unknown identifier "wordLen".
-# Error: COMP96_0133: monpro.vhd : (54, 17): Cannot find object declaration.
-# Error: COMP96_0071: monpro.vhd : (54, 9): Operator "=" is not defined for such operands.
-# Error: COMP96_0104: monpro.vhd : (54, 9): Undefined type of expression.
-# Error: COMP96_0098: monpro.vhd : (54, 9): 'BOOLEAN' type expected.
-# Compile failure 30 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# Error: COMP96_0015: RSACore.vhd : (40, 81): '=>' expected.
+# Error: COMP96_0015: RSACore.vhd : (40, 83): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+rsacore_tb rsacore_tb behaviour
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -work RSA -2002  $dsn/src/RSACore.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSACore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # KERNEL: Main thread initiated.
@@ -135,32 +642,53 @@ acom -work RSA -2002  $dsn/src/monpro.vhd
 # KERNEL: Time resolution set to 1ps.
 # ELAB2: Elaboration final pass...
 # ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2032 kB (elbread=1023 elab2=660 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:10, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: monpro (behaviour)
+# ELAB2: Fatal Error: ELAB2_0085 RSACore.vhd (94): Length of actual parameter "muxAo"(128) does not match the length of formal parameter "Ain" (8) (from entity "monpro").
+# ELAB2: Last instance before error: /RSACore/monPro
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Fatal error occurred during simulation initialization.
 acom -work RSA -2002  $dsn/src/monpro.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\monpro.vhd
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
 # Compile Entity "monpro"
 # Compile Architecture "behaviour" of Entity "monpro"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-#  Simulation has been stopped
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+rsacore_tb rsacore_tb behaviour
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'rsa.monpro' instantiated in architecture 'behaviour:RSACore' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd $dsn/src/rsacore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
+# Compile Entity "monpro"
+# Compile Architecture "behaviour" of Entity "monpro"
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
+# Compile Entity "residue"
+# Compile Architecture "behaviour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behaviour" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# File: C:\Users\student\RSA\RSA\src\rsacore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+residue residue behvaiour
+asim -O5 +access +r +m+rsacore_tb rsacore_tb behaviour
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # asim: Stack memory: 32MB
@@ -176,819 +704,29 @@ asim -O5 +access +r +m+residue residue behvaiour
 # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
 # SLP: Finished : 0.0 [s]
 # ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.1 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2163 kB (elbread=1023 elab2=791 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:12, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-# 10 signal(s) traced.
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\monpro.vhd
-# Compile Entity "monpro"
-# Compile Architecture "behaviour" of Entity "monpro"
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
 # ELAB2: Elaboration final pass complete - time: 0.0 [s].
 # KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=661 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:19, 1. november 2013
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1083 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:09, 2. november 2013
 #  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:21, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# RUNTIME: Fatal Error: RUNTIME_0046 residue.vhd (28): Incompatible ranges; left: (7 downto 0), right: (9 downto 0).
-# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance,  Process: line__25.
-# Error: Fatal error occurred during simulation.
-# KERNEL: stopped at delta: 0 at time 0 ps.
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:22, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-run 100 ns
-# KERNEL: stopped at time: 1200 ns
-run 100 ns
-# KERNEL: stopped at time: 1300 ns
-run 100 ns
-# KERNEL: stopped at time: 1400 ns
-run 100 ns
-# KERNEL: stopped at time: 1500 ns
-run 100 ns
-# KERNEL: stopped at time: 1600 ns
-run 100 ns
-# KERNEL: stopped at time: 1700 ns
-run 100 ns
-# KERNEL: stopped at time: 1800 ns
-run 100 ns
-# KERNEL: stopped at time: 1900 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-# 1 signal(s) traced.
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:29, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:35, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0077: residue.vhd : (30, 9): Assignment target incompatible with right side. Expected type 'STD_LOGIC_VECTOR'.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0149: residue.vhd : (30, 26): Explicit type conversions are allowed between closely related types only.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  46.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2035 kB (elbread=1023 elab2=663 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:40, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-# 1 signal(s) traced.
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0071: residue.vhd : (55, 13): Operator ">" is not defined for such operands.
-# Error: COMP96_0104: residue.vhd : (55, 13): Undefined type of expression.
-# Error: COMP96_0098: residue.vhd : (55, 13): 'BOOLEAN' type expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2035 kB (elbread=1023 elab2=663 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:41, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0015: residue.vhd : (33, 3): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  46.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0123: residue.vhd : (32, 4): Variable or constant cannot be the target of a signal assignment.
-# Error: COMP96_0143: residue.vhd : (32, 4): Object "subtract" may not be written
-# Error: COMP96_0123: residue.vhd : (34, 4): Variable or constant cannot be the target of a signal assignment.
-# Error: COMP96_0143: residue.vhd : (34, 4): Object "subtract" may not be written
-# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:53, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\monpro.vhd
-# Compile Entity "monpro"
-# Compile Architecture "behaviour" of Entity "monpro"
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-run 100 ns
-# KERNEL: stopped at time: 1200 ns
-run 100 ns
-# KERNEL: stopped at time: 1300 ns
-# 1 signal(s) traced.
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:54, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-run 100 ns
-# KERNEL: stopped at time: 1200 ns
-run 100 ns
-# KERNEL: stopped at time: 1300 ns
-# 1 signal(s) traced.
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  11:55, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-run 100 ns
-# KERNEL: stopped at time: 1200 ns
-run 100 ns
-# KERNEL: stopped at time: 1300 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  12:00, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  12:03, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  12:06, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  12:07, 1. november 2013
-#  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
+#  Selected Top-Level: rsacore_tb (behaviour)
+# 8 signal(s) traced.
+run
 # KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
-# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance,  Process: line__27.
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-run 100 ns
-# KERNEL: stopped at time: 1200 ns
-run 100 ns
-# KERNEL: stopped at time: 1300 ns
-run 100 ns
-# KERNEL: stopped at time: 1400 ns
-run 100 ns
-# KERNEL: stopped at time: 1500 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
+# KERNEL: Time: 20 ns,  Iteration: 0,  Instance: /RSACore/residue,  Process: line__26.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 20 ns,  Iteration: 0,  Instance: /RSACore/residue,  Process: line__26.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0078: residue.vhd : (30, 3): Unknown identifier "temp".
-# Error: COMP96_0133: residue.vhd : (30, 3): Cannot find object declaration.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
 restart
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -1007,42 +745,20 @@ restart
 # KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  12:11, 1. november 2013
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1083 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:12, 2. november 2013
 #  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-run 100 ns
-# KERNEL: stopped at time: 1100 ns
-run 100 ns
-# KERNEL: stopped at time: 1200 ns
-acom -work RSA -2002  $dsn/src/residue.vhd
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
 restart
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -1061,238 +777,639 @@ restart
 # KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2034 kB (elbread=1023 elab2=662 kernel=348 sdf=0)
-# KERNEL: ASDB file was created in location Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\wave.asdb
-#  12:14, 1. november 2013
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1083 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:13, 2. november 2013
 #  Simulation has been initialized
-#  Selected Top-Level: residue (behvaiour)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-run 100 ns
-# KERNEL: stopped at time: 400 ns
-run 100 ns
-# KERNEL: stopped at time: 500 ns
-run 100 ns
-# KERNEL: stopped at time: 600 ns
-run 100 ns
-# KERNEL: stopped at time: 700 ns
-run 100 ns
-# KERNEL: stopped at time: 800 ns
-run 100 ns
-# KERNEL: stopped at time: 900 ns
-run 100 ns
-# KERNEL: stopped at time: 1 us
-acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\monpro.vhd
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Error: COMP96_0010: RSAcore_tb.vhd : (51, 37): Invalid literal.
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0029: RSAcore_tb.vhd : (51, 37): Expression expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0131: RSAcore_tb.vhd : (51, 36): Illegal operand for type conversion.
+# Error: COMP96_0149: RSAcore_tb.vhd : (51, 48): Explicit type conversions are allowed between closely related types only.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0078: RSAcore_tb.vhd : (51, 37): Unknown identifier "AAAAAAAA".
+# Error: COMP96_0133: RSAcore_tb.vhd : (51, 37): Cannot find object declaration.
+# Error: COMP96_0131: RSAcore_tb.vhd : (51, 36): Illegal operand for type conversion.
+# Error: COMP96_0149: RSAcore_tb.vhd : (51, 46): Explicit type conversions are allowed between closely related types only.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Error: COMP96_0010: RSAcore_tb.vhd : (51, 37): Invalid literal.
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0029: RSAcore_tb.vhd : (51, 37): Expression expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Currently compiled unit contains out-of-range 32-bit literals.
+# To allow 32-bit literals, use -relax. (The 32-nd bit will be treated as a sign bit.)
+# Error: COMP96_0012: RSAcore_tb.vhd : (51, 37): Literal represents an out-of-range integer (2863311530).
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0131: RSAcore_tb.vhd : (51, 36): Illegal operand for type conversion.
+# Error: COMP96_0149: RSAcore_tb.vhd : (51, 46): Explicit type conversions are allowed between closely related types only.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0131: RSAcore_tb.vhd : (51, 27): Illegal operand for type conversion.
+# Error: COMP96_0149: RSAcore_tb.vhd : (51, 47): Explicit type conversions are allowed between closely related types only.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Error: COMP96_0077: RSAcore_tb.vhd : (51, 12): Assignment target incompatible with right side. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:22, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# RUNTIME: Fatal Error: RUNTIME_0046 RSAcore_tb.vhd (51): Incompatible ranges; left: (31 downto 0), right: (0 to 15).
+# KERNEL: Time: 80 ns,  Iteration: 0,  TOP instance,  Process: line__43.
+# Error: Fatal error occurred during simulation.
+# KERNEL: stopped at delta: 0 at time 80 ns.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:23, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:24, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:25, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:26, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:26, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2456 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:27, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:32, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+#  Simulation has been stopped
+acom -work RSA -2002  $dsn/src/control.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+rsacore_tb rsacore_tb behaviour
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:32, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+rsacore_tb rsacore_tb behaviour
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:32, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+# 8 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/control.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# Error: COMP96_0078: control.vhd : (203, 8): Unknown identifier "prStat".
+# Error: COMP96_0133: control.vhd : (203, 8): Cannot find object declaration.
+# Error: COMP96_0104: control.vhd : (203, 8): Undefined type of expression.
+# Error: COMP96_0098: control.vhd : (203, 8): 'BOOLEAN' type expected.
+# Error: COMP96_0078: control.vhd : (207, 8): Unknown identifier "prStat".
+# Error: COMP96_0133: control.vhd : (207, 8): Cannot find object declaration.
+# Error: COMP96_0104: control.vhd : (207, 8): Undefined type of expression.
+# Error: COMP96_0098: control.vhd : (207, 8): 'BOOLEAN' type expected.
+# Error: COMP96_0078: control.vhd : (211, 8): Unknown identifier "prStat".
+# Error: COMP96_0133: control.vhd : (211, 8): Cannot find object declaration.
+# Error: COMP96_0104: control.vhd : (211, 8): Undefined type of expression.
+# Error: COMP96_0098: control.vhd : (211, 8): 'BOOLEAN' type expected.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -work RSA -2002  $dsn/src/control.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:39, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+acom -work RSA -2002  $dsn/src/monpro.vhd $dsn/src/residue.vhd $dsn/src/control.vhd $dsn/src/mux.vhd $dsn/src/rsacore.vhd $dsn/src/rsaconstants.vhd $dsn/src/outreg.vhd $dsn/src/rsacore_tb.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: C:\Users\student\RSA\RSA\src\monpro.vhd
 # Compile Entity "monpro"
 # Compile Architecture "behaviour" of Entity "monpro"
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
+# File: C:\Users\student\RSA\RSA\src\residue.vhd
 # Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
-acom -work RSA -2002  $dsn/src/residue.vhd
+# Compile Architecture "behaviour" of Entity "residue"
+# File: C:\Users\student\RSA\RSA\src\control.vhd
+# Compile Entity "control"
+# Compile Architecture "behaviour" of Entity "control"
+# File: C:\Users\student\RSA\RSA\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "behaviour" of Entity "mux"
+# File: C:\Users\student\RSA\RSA\src\rsacore.vhd
+# Compile Entity "RSACore"
+# Compile Architecture "behaviour" of Entity "RSACore"
+# File: C:\Users\student\RSA\RSA\src\rsaconstants.vhd
+# Compile Package "RSAconstants"
+# File: C:\Users\student\RSA\RSA\src\outreg.vhd
+# Compile Entity "outReg"
+# Compile Architecture "behaviour" of Entity "outReg"
+# File: C:\Users\student\RSA\RSA\src\rsacore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 340 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Error: COMP96_0018: residue.vhd : (17, 4): Identifier expected.
-# Compile Architecture "behvaiour" of Entity "residue"
-# Error: COMP96_0078: residue.vhd : (30, 4): Unknown identifier "finish".
-# Error: COMP96_0133: residue.vhd : (30, 4): Cannot find object declaration.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -work RSA -2002  $dsn/src/residue.vhd
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:41, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -work RSA -2002  $dsn/src/RSAcore_tb.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# File: C:\Users\student\RSA\RSA\src\RSAcore_tb.vhd
+# Compile Entity "RSAcore_tb"
+# Compile Architecture "behaviour" of Entity "RSAcore_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:42, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
 acom -work RSA -2002  $dsn/src/control.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
+# File: C:\Users\student\RSA\RSA\src\control.vhd
 # Compile Entity "control"
-# Error: COMP96_0018: control.vhd : (10, 4): Identifier expected.
-# Error: COMP96_0015: control.vhd : (21, 5): ';' expected.
-# Error: COMP96_0018: control.vhd : (25, 4): Identifier expected.
 # Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0019: control.vhd : (72, 8): Keyword 'then' expected.
-# Error: COMP96_0019: control.vhd : (74, 7): Keyword 'end' expected.
-# Error: COMP96_0019: control.vhd : (75, 8): Keyword 'case' expected.
-# Error: COMP96_0019: control.vhd : (77, 11): Keyword 'process' expected.
-# Error: COMP96_0019: control.vhd : (80, 6): Keyword 'end' expected.
-# Error: COMP96_0016: control.vhd : (80, 11): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (148, 17): Identifier expected.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:46, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:46, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
 acom -work RSA -2002  $dsn/src/control.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Error: COMP96_0015: control.vhd : (21, 5): ';' expected.
-# Error: COMP96_0018: control.vhd : (25, 4): Identifier expected.
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0019: control.vhd : (72, 8): Keyword 'then' expected.
-# Error: COMP96_0019: control.vhd : (74, 7): Keyword 'end' expected.
-# Error: COMP96_0019: control.vhd : (75, 8): Keyword 'case' expected.
-# Error: COMP96_0019: control.vhd : (77, 11): Keyword 'process' expected.
-# Error: COMP96_0019: control.vhd : (80, 6): Keyword 'end' expected.
-# Error: COMP96_0016: control.vhd : (80, 11): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (148, 17): Identifier expected.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Error: COMP96_0018: control.vhd : (25, 4): Identifier expected.
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0019: control.vhd : (72, 8): Keyword 'then' expected.
-# Error: COMP96_0019: control.vhd : (74, 7): Keyword 'end' expected.
-# Error: COMP96_0019: control.vhd : (75, 8): Keyword 'case' expected.
-# Error: COMP96_0019: control.vhd : (77, 11): Keyword 'process' expected.
-# Error: COMP96_0019: control.vhd : (80, 6): Keyword 'end' expected.
-# Error: COMP96_0016: control.vhd : (80, 11): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (148, 17): Identifier expected.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Error: COMP96_0300: control.vhd : (9, 42): Cannot reference "inWordLen" until the interface list is complete.
-# Error: COMP96_0300: control.vhd : (9, 31): Cannot reference "outWordLen" until the interface list is complete.
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0019: control.vhd : (72, 8): Keyword 'then' expected.
-# Error: COMP96_0019: control.vhd : (74, 7): Keyword 'end' expected.
-# Error: COMP96_0019: control.vhd : (75, 8): Keyword 'case' expected.
-# Error: COMP96_0019: control.vhd : (77, 11): Keyword 'process' expected.
-# Error: COMP96_0019: control.vhd : (80, 6): Keyword 'end' expected.
-# Error: COMP96_0016: control.vhd : (80, 11): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (148, 17): Identifier expected.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Error: COMP96_0018: control.vhd : (9, 4): Identifier expected.
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0015: control.vhd : (52, 1): ';' expected.
-# Error: COMP96_0019: control.vhd : (73, 8): Keyword 'then' expected.
-# Error: COMP96_0019: control.vhd : (75, 7): Keyword 'end' expected.
-# Error: COMP96_0019: control.vhd : (76, 8): Keyword 'case' expected.
-# Error: COMP96_0019: control.vhd : (78, 11): Keyword 'process' expected.
-# Error: COMP96_0019: control.vhd : (81, 6): Keyword 'end' expected.
-# Error: COMP96_0016: control.vhd : (81, 11): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (149, 17): Identifier expected.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
+# File: C:\Users\student\RSA\RSA\src\control.vhd
 # Compile Entity "control"
 # Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0015: control.vhd : (52, 1): ';' expected.
-# Error: COMP96_0019: control.vhd : (73, 8): Keyword 'then' expected.
-# Error: COMP96_0019: control.vhd : (75, 7): Keyword 'end' expected.
-# Error: COMP96_0019: control.vhd : (76, 8): Keyword 'case' expected.
-# Error: COMP96_0019: control.vhd : (78, 11): Keyword 'process' expected.
-# Error: COMP96_0019: control.vhd : (81, 6): Keyword 'end' expected.
-# Error: COMP96_0016: control.vhd : (81, 11): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (149, 17): Identifier expected.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0019: control.vhd : (73, 8): Keyword 'then' expected.
-# Error: COMP96_0019: control.vhd : (75, 7): Keyword 'end' expected.
-# Error: COMP96_0019: control.vhd : (76, 8): Keyword 'case' expected.
-# Error: COMP96_0019: control.vhd : (78, 11): Keyword 'process' expected.
-# Error: COMP96_0019: control.vhd : (81, 6): Keyword 'end' expected.
-# Error: COMP96_0016: control.vhd : (81, 11): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (149, 17): Identifier expected.
-# Compile failure 7 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0019: control.vhd : (124, 8): Keyword 'process' expected.
-# Error: COMP96_0015: control.vhd : (125, 7): ';' expected.
-# Error: COMP96_0016: control.vhd : (125, 9): Design unit declaration expected.
-# Error: COMP96_0018: control.vhd : (149, 17): Identifier expected.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0078: control.vhd : (99, 5): Unknown identifier "X".
-# Error: COMP96_0133: control.vhd : (99, 5): Cannot find object declaration.
-# Error: COMP96_0078: control.vhd : (99, 19): Unknown identifier "X".
-# Error: COMP96_0078: control.vhd : (109, 5): Unknown identifier "Y".
-# Error: COMP96_0133: control.vhd : (109, 5): Cannot find object declaration.
-# Error: COMP96_0078: control.vhd : (109, 19): Unknown identifier "Y".
-# Error: COMP96_0301: control.vhd : (59, 3): The choice 'others' must be present when all alternatives are not covered.
-# Error: COMP96_0104: control.vhd : (141, 17): Undefined type of expression.
-# Error: COMP96_0077: control.vhd : (141, 17): Assignment target incompatible with right side. Expected type 'INTEGER'.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0078: control.vhd : (107, 5): Unknown identifier "Y".
-# Error: COMP96_0133: control.vhd : (107, 5): Cannot find object declaration.
-# Error: COMP96_0078: control.vhd : (107, 19): Unknown identifier "Y".
-# Error: COMP96_0301: control.vhd : (59, 3): The choice 'others' must be present when all alternatives are not covered.
-# Error: COMP96_0104: control.vhd : (139, 17): Undefined type of expression.
-# Error: COMP96_0077: control.vhd : (139, 17): Assignment target incompatible with right side. Expected type 'INTEGER'.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0301: control.vhd : (59, 3): The choice 'others' must be present when all alternatives are not covered.
-# Error: COMP96_0104: control.vhd : (139, 17): Undefined type of expression.
-# Error: COMP96_0077: control.vhd : (139, 17): Assignment target incompatible with right side. Expected type 'INTEGER'.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Compile Architecture "behaviour" of Entity "control"
-# Error: COMP96_0104: control.vhd : (142, 17): Undefined type of expression.
-# Error: COMP96_0077: control.vhd : (142, 17): Assignment target incompatible with right side. Expected type 'INTEGER'.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -work RSA -2002  $dsn/src/control.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\control.vhd
-# Compile Entity "control"
-# Compile Architecture "behaviour" of Entity "control"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-acom -work RSA -2002  $dsn/src/residue.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
-# File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd
-# Compile Entity "residue"
-# Compile Architecture "behvaiour" of Entity "residue"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2457 kB (elbread=1023 elab2=1084 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\student\RSA\RSA\src\wave.asdb
+#  12:47, 2. november 2013
+#  Simulation has been initialized
+#  Selected Top-Level: rsacore_tb (behaviour)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
 #  Simulation has been stopped

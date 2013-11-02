@@ -1,3 +1,8 @@
 i<>.\src\monpro.vhd
 i<>.\src\residue.vhd
 i<>.\src\control.vhd
+i<>.\src\muxA.vhd
+i<>.\src\RSACore.vhd
+i<>.\src\constants.vhd
+i<>.\src\outReg.vhd
+i<>.\src\RSAcore_tb.vhd

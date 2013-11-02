@@ -1,6 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.RSAconstants.all;
 
 entity control is
 	generic	(	
@@ -10,21 +11,21 @@ entity control is
 	port	(
 				clk,
 				reset,
-	       		        initRSA,
+	       		initRSA,
 				startRSA,
 				residueRdy,
 				monProRdy	: in	std_logic;
 				dataIn		: in	std_logic_vector(inWordLen-1 downto 0);
 				getResidue,
 				getMonPro,
-				coreWaiting	: out	std_logic;
+				coreWaiting,
+				shiftDo		: out	std_logic;
 				muxAstate,
 				muxBstate	: out	std_logic_vector(1 downto 0);
 				Mo,
 				Eo,
 				No,
-				RMNo		: out	std_logic_vector(outWordLen-1 downto 0);
-				outMuxState	: out	std_logic_vector(2 downto 0); -- Dette tallet må gjøres generisk...
+				RMNo		: out	std_logic_vector(outWordLen-1 downto 0)
 			);
 end entity;
 
@@ -34,7 +35,7 @@ type state is(	fetchE,
 				fetchX,
 				fetchY,
 				fetchM,
-				startResidue
+				startResidue,
 				residue,
 				startSqr,
 				sqr,
@@ -43,7 +44,7 @@ type state is(	fetchE,
 				startConvert,
 				convert,
 				waiting,
-                                txData  --endring
+				txData
 			);
 
 signal	counter		: natural range 0 to outWordLen-1;
@@ -55,42 +56,17 @@ signal 	prState,
 signal	M,
 		E,
 		N,
-		RMN : std_logic_vector(outWordLen-1 downto 0);
+		RMN			: std_logic_vector(outWordLen-1 downto 0);
 		
-constant	numPackages	: positive	:= outWordLen/inWordLen;
-		
-constant	count			: std_logic_vector(1 downto 0) := "01";
-constant	resetCounter	        : std_logic_vector(1 downto 0) := "10";
-constant	holdCounter		: std_logic_vector(1 downto 0) := "00";
-
-constant	muxA_Y			: std_logic_vector(1 downto 0) := "00";
-constant	muxA_M			: std_logic_vector(1 downto 0) := "01";
-constant	muxA_RMN		: std_logic_vector(1 downto 0) := "10";
-
-constant	muxB_Y			: std_logic_vector(1 downto 0) := "00";
-constant	muxB_One		: std_logic_vector(1 downto 0) := "01";
-constant	muxB_RMN		: std_logic_vector(1 downto 0) := "10";
+	constant	numPackages	: natural	:= outWordLen/inWordLen;
 
 begin
 	
 	getResidue	<= '1' when prState = startResidue else '0';
 	getMonPro	<= '1' when prState = monPro else '0';
 	coreWaiting	<= '1' when prState = waiting else '0';
-	
-	with prState select muxAstate<= --endring
-                                muxA_Y 		WHEN convert|startConvert|sqr,
-			 	muxA_M		WHEN monPro|startMonpro,
-				muxA_RMn	WHEN
-                                "1100"|"1010"|"1001"|"0110"|"0101"|"0011",--what?
-				"11" 		WHEN others;
-	
-        with prState select muxBstate<=
-                                muxB_Y 		WHEN sqr|monPro|startMonpro,
-			 	muxB_one	WHEN convert|startConvert,
-				muxB_RMn	WHEN "1100"|"1010"|"1001"|"0110"|"0101"|"0011",
-	                        "11"            WHEN others;
 
-	process(nxState,prState,startRSA,initRSA,residueRdy,monProRdy)
+	process(nxState,prState,startRSA,initRSA,residueRdy,monProRdy,counter)
 	begin		
 		case prState is
 			when waiting =>
@@ -111,8 +87,6 @@ begin
 					counterCtrl <= resetCounter;
 					nxState		<= fetchN;
 				end if;
-				
-				E	<= dataIn & E(outWordLen -1 downto inWordLen);
 			when fetchN =>
 				if counter < numPackages then
 					counterCtrl	<= count;
@@ -121,8 +95,6 @@ begin
 					counterCtrl <= resetCounter;
 					nxState		<= fetchX;
 				end if;
-				
-				N	<= dataIn & N(outWordLen -1 downto inWordLen);
 			when fetchX =>
 				if counter < numPackages then
 					counterCtrl	<= count;
@@ -131,8 +103,6 @@ begin
 					counterCtrl <= resetCounter;
 					nxState		<= fetchY;
 				end if;
-				
-				RMN	<= dataIn & RMN(outWordLen -1 downto inWordLen);
 			when fetchY =>
 				if counter < numPackages then
 					counterCtrl	<= count;
@@ -149,30 +119,21 @@ begin
 					counterCtrl <= resetCounter;
 					nxState		<= startResidue;
 				end if;
-				
-				M	<= dataIn & M(outWordLen -1 downto inWordLen);
 			when startResidue =>
 				counterCtrl	<= holdCounter;
 				nxState		<= residue;
 			when residue =>
 				counterCtrl <= holdCounter;
-				if residueRdy then
+				if residueRdy='1' then
 					nxState <= startSqr;
 				else
 					nxState <= residue;
 				end if;
 			when startSqr =>
 				counterCtrl	<= count;
-				if counter = 0 then
-					--MuxA => rMod_n
-					--MuxB => rMod_n
-				else
-					--MuxA	=> y
-					--MuxB	=> y
-				end if;
-				nxState => sqr;
+				nxState <= sqr;
 			when sqr =>
-				counterCtrl => holdCounter;
+				counterCtrl <= holdCounter;
 				if monProRdy = '1' then
 					if E(outWordLen-1) = '1' then
 						nxState <= startMonPro;
@@ -185,9 +146,7 @@ begin
 					nxState	<= sqr;
 				end if;
 			when startMonPro =>
-				counterCtrl => holdCounter;
-				--MuxA	=> M
-				--MuxB	=> Y
+				counterCtrl <= holdCounter;
 				nxState	<= monPro;
 			when monPro =>
 				if monProRdy='1' then
@@ -200,25 +159,22 @@ begin
 					nxState <= monPro;
 				end if;
 			when startConvert =>
-				counterCtrl => resetCounter;
-				--MuxA	=> Y;
-				--MuxB	=> one 
-				nxState => convert;
+				counterCtrl <= resetCounter;
+				nxState <= convert;
 			when convert =>
-				counterCtrl => holdCounter;
+				counterCtrl <= holdCounter;
 				if monProRdy='1' then
-					nxState => txData;
+					nxState <= txData;
 				else
-					nxState => convert;
+					nxState <= convert;
 				end if;
 			when txData =>
-				--CoreFinished
 				if counter < numPackages then
-					counterCtrl => count;
-					nxState		=> txData;
+					counterCtrl <= count;
+					nxState		<= txData;
 				else
-					counterCtrl => resetCounter;
-					nxState		=> waiting;
+					counterCtrl <= resetCounter;
+					nxState		<= waiting;
 				end if;
 			when others =>
 				nxState	<= waiting;
@@ -230,7 +186,7 @@ begin
 	process(clk)
 	begin
 		if clk'event and clk='1' then
-			if reset='1' then
+			if reset='0' then
 				prState <= waiting;
 				counter <= 0;
 				M		<= (others => '0');
@@ -244,8 +200,23 @@ begin
 					E <= E(outWordLen-2 downto 0) & E(outWordLen-1);
 				end if;
 				
+				if prState = fetchE then
+					E	<= dataIn & E(outWordLen -1 downto inWordLen);
+				end if;
+				
+				if prState = fetchN then
+					N	<= dataIn & N(outWordLen -1 downto inWordLen);
+				end if;
+				
+				if prState = fetchX then
+					RMN	<= dataIn & RMN(outWordLen -1 downto inWordLen);
+				end if;
+				
 				if prState = txData then
-					dataOut <= 
+					shiftDo <= '1';
+				else
+					shiftDo <= '0';
+				end if;
 				
 				if counterCtrl = "01" then
 					counter <= counter+1;
@@ -253,6 +224,31 @@ begin
 					counter <= 0;
 				end if;
 			end if;
+		end if;
+	end process;
+	
+	process(counter,prState)
+	begin
+		if prState=waiting then
+			coreWaiting	<= '1';
+		else
+			coreWaiting	<= '0';
+		end if;
+		
+		if prState=sqr or prState=startSqr then
+			if counter=0 then
+				muxAstate	<= mux_RMN;
+				muxBstate	<= mux_RMN;
+			else
+				muxAstate	<= mux_Y;
+				muxBstate	<= mux_Y;
+			end if;
+		elsif prState=monPro or prState=startMonPro then
+			muxAstate	<= mux_M;
+			muxBstate	<= mux_Y;
+		else
+			muxAstate	<= mux_Y;
+			muxBstate	<= mux_One;
 		end if;
 	end process;
 end architecture;

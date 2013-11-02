@@ -12,8 +12,8 @@ entity monpro is
 				start	: in		std_logic;
 				Ain,
 				B,
-				n		: in		std_logic_vector(7 downto 0);
-				output	: out 		std_logic_vector(7 downto 0);
+				n		: in		std_logic_vector(wordLen-1 downto 0);
+				output	: out 		std_logic_vector(wordLen-1 downto 0);
 				finish	: out		std_logic
 			);
 end entity;
@@ -30,7 +30,7 @@ begin
 		
 		if clk'event and clk='1' then
 			finish	<=not go and not start;
-			if reset='1' then
+			if reset='0' then
 				U		:=(others=>'0');
 				go		<='0';
 				counter <=0;
