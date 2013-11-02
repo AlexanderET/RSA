@@ -10,7 +10,7 @@ entity control is
 	port	(
 				clk,
 				reset,
-	       		initRSA,
+	       		        initRSA,
 				startRSA,
 				residueRdy,
 				monProRdy	: in	std_logic;
@@ -42,7 +42,8 @@ type state is(	fetchE,
 				monPro,
 				startConvert,
 				convert,
-				waiting
+				waiting,
+                                txData  --endring
 			);
 
 signal	counter		: natural range 0 to outWordLen-1;
@@ -59,7 +60,7 @@ signal	M,
 constant	numPackages	: positive	:= outWordLen/inWordLen;
 		
 constant	count			: std_logic_vector(1 downto 0) := "01";
-constant	resetCounter	: std_logic_vector(1 downto 0) := "10";
+constant	resetCounter	        : std_logic_vector(1 downto 0) := "10";
 constant	holdCounter		: std_logic_vector(1 downto 0) := "00";
 
 constant	muxA_Y			: std_logic_vector(1 downto 0) := "00";
@@ -76,12 +77,19 @@ begin
 	getMonPro	<= '1' when prState = monPro else '0';
 	coreWaiting	<= '1' when prState = waiting else '0';
 	
-	with prState select
-	muxAstate<= muxA_Y 		WHEN convert|startConvert,
+	with prState select muxAstate<= --endring
+                                muxA_Y 		WHEN convert|startConvert|sqr,
 			 	muxA_M		WHEN monPro|startMonpro,
-				muxA_RMn	WHEN "1100"|"1010"|"1001"|"0110"|"0101"|"0011",
+				muxA_RMn	WHEN
+                                "1100"|"1010"|"1001"|"0110"|"0101"|"0011",--what?
 				"11" 		WHEN others;
 	
+        with prState select muxBstate<=
+                                muxB_Y 		WHEN sqr|monPro|startMonpro,
+			 	muxB_one	WHEN convert|startConvert,
+				muxB_RMn	WHEN "1100"|"1010"|"1001"|"0110"|"0101"|"0011",
+	                        "11"            WHEN others;
+
 	process(nxState,prState,startRSA,initRSA,residueRdy,monProRdy)
 	begin		
 		case prState is

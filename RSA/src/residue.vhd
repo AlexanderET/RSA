@@ -6,7 +6,7 @@ entity residue is
 	generic	(
 				wordLen	: positive:=128
 			);
-	port	(	clk,
+	port	(	        clk,
 				reset,
 				start	: in	std_logic;
 				Ain,
