@@ -1,0 +1,73 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=2
+Current Config=compile
+
+[Configurations]
+compile=RSA
+
+[Library]
+RSA=.\RSA.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+EnableCC=0
+EnableEXC=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=MV_SYNPLIFY_PRO_C2009_06
+RUN_MODE_SYNTH=1
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=Actel A3200DX
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+EnableExpressionCoverage=0
+
+[LocalVhdlSets]
+EnableExpressionCoverage=0
+CompileWithDebug=0
+
+[$LibMap$]
+RSA=.
+Active_lib=
+xilinxun=
+UnlinkedDesignLibrary=
+DESIGNS=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=monpro|behaviour|0 residue|behvaiour|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/monpro.vhd=-1
+/residue.vhd=-1
+/control.vhd=-1
+
+[Files.Data]
+.\src\monpro.vhd=VHDL Source Code
+.\src\residue.vhd=VHDL Source Code
+.\src\control.vhd=VHDL Source Code
+

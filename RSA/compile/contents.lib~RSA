@@ -1,0 +1,7 @@
+342
+~E 1 "./src/monpro.vhd" 5 monpro
+~A 1 "./src/monpro.vhd" 21 behaviour
+~E 1 "./src/control.vhd" 5 control
+~A 1 "./src/control.vhd" 27 behaviour
+~E 1 "./src/residue.vhd" 5 residue
+~A 1 "./src/residue.vhd" 20 behvaiour

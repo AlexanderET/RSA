@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available." 
+MESSAGE "File: Z:\Skole\H2013\Realisering og Test\Semester Project\RSA\RSA\RSA\src\residue.vhd" 
+MESSAGE "Compile Entity "residue"" 
+MESSAGE "Compile Architecture "behvaiour" of Entity "residue"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 
